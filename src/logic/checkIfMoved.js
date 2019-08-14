@@ -8,8 +8,8 @@ export default function checkIfMoved(newBoard, oldBoard) {
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 4; j++) {
       if (copyBoard[i][j] !== oldCopyBoard[i][j]) {
-        // console.log(copyBoard[i][j]);
-        // console.log(oldBoard[i][j]);
+        console.log(copyBoard[i][j]);
+        console.log(oldBoard[i][j]);
 
         moved = true;
         return moved;

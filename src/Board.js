@@ -57,7 +57,7 @@ class Board extends Component {
     const oldBoard = newBoard.map(arr => {
       return arr.slice();
     });
-
+    console.table(oldBoard);
     // console.table(oldBoard);
     // console.table(newBoard);
     newBoard = rotateBoard(newBoard, btn);
@@ -74,7 +74,7 @@ class Board extends Component {
     // console.table(newBoard);
 
     newBoard = setStart(newBoard, btn);
-    console.table(oldBoard);
+
     console.table(newBoard);
 
     const ifMoved = checkIfMoved(newBoard, oldBoard);

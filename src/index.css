@@ -60,27 +60,27 @@ body {
 }
 .cell-128 {
   background: #1a4279;
-  font-size: 9px;
+  font-size: 90px;
 }
 .cell-256 {
   background: #17723e;
-  font-size: 9px;
+  font-size: 90px;
 }
 .cell-512 {
   background: #2272dc;
-  font-size: 9px;
+  font-size: 90px;
 }
 .cell-1024 {
-  font-size: 7px;
+  font-size: 76px;
   background: #7038a4;
 }
 .cell-2048 {
-  font-size: 6px;
+  font-size: 76px;
   background: #e61b1b;
 }
 .cell-4096 {
   z-index: 999;
-  font-size: 6px;
+  font-size: 76px;
   background: orangered;
 }
 .cell-winner {
@@ -94,7 +94,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1px;
+  font-size: 100px;
   content: "Wygrałeś!";
 }
 

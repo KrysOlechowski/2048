@@ -1,6 +1,9 @@
 export default function rotateBoard(newBoard, btn) {
   const butt = btn;
-  let cb = [...newBoard];
+  // let cb = [...newBoard];
+  let cb = newBoard.map(arr => {
+    return arr.slice();
+  });
   var w = cb.length;
   var h = cb.length;
 
